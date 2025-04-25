@@ -37,7 +37,7 @@ This structured dataset is essential for powering the Intelligent Procurement As
 ## How to run
 ### Prerequisites
 
-# The folder named "Final Chat-bot" have full code to run the chat-bot application by main.py and the folder have back-end ,front-end and EDA modulus and notebooks.
+# The folder named "Final_Chatbot" have full code to run the chat-bot application by main.py and the folder have back-end ,front-end and EDA modulus and notebooks.
 
 ---
 - Install **Python 3.12** 
@@ -70,7 +70,7 @@ The system is divided into three major components:
 2. **Backend**: Implements an agentic system to process user queries, orchestrate logic flows, and provide analytical or validated responses.
 3. **Frontend**: Offers a simple, interactive user interface where users can converse with the assistant and obtain insights from the underlying data.
 
-![Architecture](.Final Chat-bot/images/flow.png)
+![Architecture](./Final_Chatbot/images/flow.png)
 ---
 
 ## ETL Process
@@ -100,7 +100,7 @@ The backend is powered by a **Flask** server, which exposes an agentic system. T
 
 A directed graph (or state graph) connects these agents, defining how conversations flow and ensuring each user query follows the proper processing steps.
 
-![Agents](.Final Chat-bot/images/agents with graph.png)
+![Agents](./Final_Chatbot/images/agents_with_graph.png)
 
 ---
 
@@ -108,7 +108,7 @@ A directed graph (or state graph) connects these agents, defining how conversati
 
 A **HTML/CSS and JavaScript** application serves as a simple user interface for interacting with the Procurement Data Assistant. Users can type in their questions or requests, and the system responds with relevant analytical insights drawn from the backend. This interface makes the analytical capabilities accessible to non-technical users.
 
-![Frontend](.Final Chat-bot/images/chatbot.png)
+![Frontend](./Final_Chatbot/images/chatbot.png)
 ---
 
 
@@ -147,7 +147,7 @@ All relevant fields from the database results have been included in the list abo
 ```
 
 ## Files:
-# Final chat-bot : full Project code have the back-end ,front-end and EDA modulus and notebooks.  
+# Final_Chatbot : full Project code have the back-end ,front-end and EDA modulus and notebooks.  
 # code for agents : that file have code develop agents with langGraph and use integrate with LLM "GROK-2".
 # Second Approach Transformer with chromaDB : this second approach I use but the accuracy is not aligned with the query and need big embeddings model with big vector database to can retrieve correct .
 
