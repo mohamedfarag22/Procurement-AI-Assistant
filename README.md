@@ -70,7 +70,7 @@ The system is divided into three major components:
 2. **Backend**: Implements an agentic system to process user queries, orchestrate logic flows, and provide analytical or validated responses.
 3. **Frontend**: Offers a simple, interactive user interface where users can converse with the assistant and obtain insights from the underlying data.
 
-![Architecture](./Final_Chatbot/images/flow.png)
+![Architecture](./images/flow.png)
 ---
 
 ## ETL Process
@@ -100,7 +100,7 @@ The backend is powered by a **Flask** server, which exposes an agentic system. T
 
 A directed graph (or state graph) connects these agents, defining how conversations flow and ensuring each user query follows the proper processing steps.
 
-![Agents](./Final_Chatbot/images/agents_with_graph.png)
+![Agents](./images/agents_with_graph.png)
 
 ---
 
@@ -108,7 +108,7 @@ A directed graph (or state graph) connects these agents, defining how conversati
 
 A **HTML/CSS and JavaScript** application serves as a simple user interface for interacting with the Procurement Data Assistant. Users can type in their questions or requests, and the system responds with relevant analytical insights drawn from the backend. This interface makes the analytical capabilities accessible to non-technical users.
 
-![Frontend](./Final_Chatbot/images/chatbot.png)
+![Frontend](./images/chatbot.png)
 ---
 
 
