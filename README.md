@@ -70,7 +70,8 @@ The system is divided into three major components:
 2. **Backend**: Implements an agentic system to process user queries, orchestrate logic flows, and provide analytical or validated responses.
 3. **Frontend**: Offers a simple, interactive user interface where users can converse with the assistant and obtain insights from the underlying data.
 
-![Architecture](./Final_Chatbot/images/flow.png)
+![Architecture]
+(./Final_Chatbot/images/flow.png)
 ---
 
 ## ETL Process
