@@ -1,5 +1,5 @@
-.env           
-.env.*         
-.env[0-9]      
+Final_Chatbot/.env           
+Final_Chatbot/.env.*         
+Final_Chatbot/.env[0-9]      
 # Ignore large data files
-Final Chat-bot/*.csv
+Final_Chatbot/*.csv

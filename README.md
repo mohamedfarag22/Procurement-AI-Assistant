@@ -48,11 +48,11 @@ This structured dataset is essential for powering the Intelligent Procurement As
 ### ETL
 
 1- you first download the dataset form Kaggle and then run the "EDA with MongoDB.ipynb" to generate the cleaned and final Dataset and feed them to MongoDB Database.
-```
- Run the ETL script directly:
-```
+
+- Run the ETL script directly:
+
 python3 Final Chat-bot/EDA with MongoDB.ipynb
-```
+
 ### Backend and Frontend
 2.	In the main project folder, copy the .env.example file and rename it to .env:
 ```
